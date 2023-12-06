@@ -4,6 +4,15 @@ unet for SIIM dataset
 ```
 docker pull stevezeyuzhang/colab:2.0
 ```
+#### Dataset
+```
+|-- pytorchunet_siim
+    |-- data
+        |-- imgs
+            |-- <your image>
+        |-- masks
+            |-- <your label>
+```
 #### Installation
 ```
 pip install -r requirements.txt
