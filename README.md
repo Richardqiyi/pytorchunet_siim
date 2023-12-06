@@ -4,6 +4,16 @@ unet for SIIM dataset
 ```
 docker pull stevezeyuzhang/colab:2.0
 ```
+#### Environment
+Python 3.9.13 cuda=11.7 pytorch=2.0.0 
+```
+conda create -n myenv python=3.9.13
+
+conda activate myenv
+
+conda install pytorch=2.0.0 cudatoolkit=11.7 -c pytorch
+```
+
 #### Dataset
 ```
 |-- pytorchunet_siim
